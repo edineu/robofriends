@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Hello from './Hello.js'
+import Card from './Card.js'
 import reportWebVitals from './reportWebVitals'
 import 'tachyons'
-
+s
 ReactDOM.render(
   <React.StrictMode>
-    <Hello greeting={'Hello' + 'React ninja'} />
+    <Card />
   </React.StrictMode>,
   document.getElementById('root')
 )
